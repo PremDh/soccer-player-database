@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.player-table {
+  color: #07617c;
+  background-color: rgb(155, 206, 168);
+  border-top-style: solid;
+  border: #283528;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,14 +1,80 @@
 import logo from './logo.svg';
 import './App.css';
+//import './soccerdata.js';
+const yes = "."
+const frontp = (
+    <html>
+        
+
+        <body>
+            <div class = "header">
+                <h1 class = "lol">
+                    Futbol Comparator
+                </h1>
+            </div>
+
+            <div class = "content">
+                <h1> Search player </h1>
+            </div>
+
+            <div class = "search">
+                <input type="text" placeholder="Search..." />
+            </div>
+            
+            <div class="player-table">
+                <table class="w3-table w3-striped w3-bordered">
+                    <tr>
+                        <th>Top Scorer</th>
+                        <th>Club</th>
+                        <th>Nationality</th>
+                        <th>Position</th>
+                    </tr>
+                    <tr>
+                        <td>Harry Kane</td>
+                        <td>Tottenham Hotspur</td>
+                        <td>England</td>
+                        <td>Str</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mohamed Salah</td>
+                        <td>Liverpool</td>
+                        <td>England</td>
+                        <td>RW</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sergio Aguero</td>
+                        <td>Manchester City</td>
+                        <td>England</td>
+                        <td>Str</td>
+                    </tr>
+                    <tr>
+                        <td>Chris Wood</td>
+                        <td>Newcastle</td>
+                        <td>England</td>
+                        <td>Str</td>
+                    </tr>
+                    <tr>
+                        <td>Sadio Mane</td>
+                        <td>Liverpool</td>
+                        <td>England</td>
+                        <td>LW</td>
+                    </tr>
+                </table>
+            </div>
+        </body>
+    </html>
+  )
 
 function App() {
   return (
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-          Hello World!
+          Futbol Lookup
         </p>
         <a
           className="App-link"
@@ -16,27 +82,18 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          l
         </a>
       </header>
-      <h1>Hello World!</h1>
 
-      <table style={{float: 'middle'}}>
-        <caption>Monthly savings</caption>
-        <tr>
-          <th>Month</th>
-          <th>Savings</th>
-        </tr>
-        <tr>
-          <td>January</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>February</td>
-          <td>$50</td>
-        </tr>
-      </table> 
+      
+      <h1> {yes} </h1>
+      <h1> {frontp} </h1>
+
+      
     </div>
+
+    
   );
 }
 
