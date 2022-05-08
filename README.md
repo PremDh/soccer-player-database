@@ -2,3 +2,17 @@ This Node web application  features a soccer database allowing users to compare 
 
 It collects data from the soccer-football info API and pulls player information into the application.
 
+Install Pandas
+
+```
+pip install node
+```
+
+
+
+Running the application
+
+```
+npm start
+```
+
