@@ -16,3 +16,7 @@ Running the application
 npm start
 ```
 
+
+Displaying top scorers.
+
+![image](https://user-images.githubusercontent.com/22993577/167322005-ab298ce4-cf7b-450f-a2bb-8445443566c1.png)
